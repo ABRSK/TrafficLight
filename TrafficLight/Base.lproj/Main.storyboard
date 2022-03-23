@@ -70,6 +70,12 @@
                             <constraint firstItem="3U4-1j-Pbj" firstAttribute="width" secondItem="rez-e5-xCA" secondAttribute="width" id="zhM-hK-89f"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="controlButton" destination="3U4-1j-Pbj" id="oOC-kx-ud8"/>
+                        <outlet property="greenLight" destination="aQK-xW-JCz" id="QAP-9o-N3d"/>
+                        <outlet property="redLight" destination="0GY-2t-W3j" id="9qC-j4-Ga2"/>
+                        <outlet property="yellowLight" destination="Mfc-ZK-9BU" id="ba2-Ox-5pS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
