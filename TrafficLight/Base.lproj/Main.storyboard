@@ -17,10 +17,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="rez-e5-xCA">
-                                <rect key="frame" x="118.66666666666667" y="76" width="152.66666666666663" height="627.33333333333337"/>
+                                <rect key="frame" x="100.33333333333333" y="76" width="189.33333333333337" height="617"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0GY-2t-W3j">
+                                        <rect key="frame" x="0.0" y="0.0" width="189.33333333333334" height="189.66666666666666"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0GY-2t-W3j" secondAttribute="height" multiplier="1:1" id="TDS-4f-Rkf"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mfc-ZK-9BU">
+                                        <rect key="frame" x="0.0" y="213.66666666666669" width="189.33333333333334" height="189.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Mfc-ZK-9BU" secondAttribute="height" multiplier="1:1" id="bv8-zB-WiS"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQK-xW-JCz">
+                                        <rect key="frame" x="0.0" y="427.33333333333331" width="189.33333333333334" height="189.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="aQK-xW-JCz" secondAttribute="height" multiplier="1:1" id="bpI-dv-LGh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0GY-2t-W3j" firstAttribute="height" secondItem="Mfc-ZK-9BU" secondAttribute="height" id="CIS-yq-pOQ"/>
+                                    <constraint firstItem="0GY-2t-W3j" firstAttribute="height" secondItem="aQK-xW-JCz" secondAttribute="height" id="gG8-Fd-Gae"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U4-1j-Pbj">
-                                <rect key="frame" x="118.66666666666667" y="735.33333333333337" width="152.66666666666663" height="42.666666666666629"/>
+                                <rect key="frame" x="100.33333333333333" y="725" width="189.33333333333337" height="53"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3U4-1j-Pbj" secondAttribute="height" multiplier="25:7" id="b20-Zb-cNt"/>
@@ -52,6 +79,15 @@
     <resources>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
